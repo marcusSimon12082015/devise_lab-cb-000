@@ -31,19 +31,19 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-#gem 'high_voltage'
+gem 'high_voltage'
 
 group :development do
   gem 'better_errors'
-#  gem 'quiet_assets'
-#  gem 'rails_layout'
-#  gem 'spring-commands-rspec'
+  gem 'quiet_assets'
+  gem 'rails_layout'
+  gem 'spring-commands-rspec'
   gem 'pry'
 end
 
 group :development, :test do
   gem 'factory_bot_rails'
-#  gem 'faker'
+  gem 'faker'
   gem 'rspec-rails'
 end
 
