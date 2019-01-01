@@ -55,4 +55,4 @@ group :test do
 end
 
 gem 'devise'
-#gem 'devise_invitable'
+gem 'devise_invitable'
