@@ -40,7 +40,6 @@ gem 'sqlite3'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
-  gem 'spring-commands-rspec'
 end
 group :development, :test do
   gem 'factory_bot_rails'
